@@ -1,27 +1,27 @@
 class Omnimon < Formula
   desc "Terminal monitor for GPUs, the processes using them and the machine around them"
   homepage "https://github.com/sorbet-ai/omnimon"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/sorbet-ai/omnimon/releases/download/v0.1.2/omnimon-aarch64-apple-darwin"
-      sha256 "ce134298b93fc6ad9ab78aae2bd4d375269d3a58357c0e4f5efb6f854a64a467"
+      url "https://github.com/sorbet-ai/omnimon/releases/download/v0.1.3/omnimon-aarch64-apple-darwin"
+      sha256 "7d5974d569f5bb95c50af79ec99a77d0c31c0d818d6ce33a2d7dd828ba02da23"
     end
     on_intel do
-      url "https://github.com/sorbet-ai/omnimon/releases/download/v0.1.2/omnimon-x86_64-apple-darwin"
-      sha256 "b4b7e5d29daef00a6a001697b51c023f07d5a0a9904376ab4817972da7081b4a"
+      url "https://github.com/sorbet-ai/omnimon/releases/download/v0.1.3/omnimon-x86_64-apple-darwin"
+      sha256 "01dc3c1910723494f0baabb1372f97d889a43c758397292b2636fb3d39f04f27"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/sorbet-ai/omnimon/releases/download/v0.1.2/omnimon-aarch64-unknown-linux-gnu"
-      sha256 "f56c1c983681b7e8486ff32c8f35aee0db70ffb32ff9673c697ea854bd9c5462"
+      url "https://github.com/sorbet-ai/omnimon/releases/download/v0.1.3/omnimon-aarch64-unknown-linux-gnu"
+      sha256 "e6376876a60e38a2394f7706acec227fb713a9162e2b40170573615a775bb951"
     end
     on_intel do
-      url "https://github.com/sorbet-ai/omnimon/releases/download/v0.1.2/omnimon-x86_64-unknown-linux-gnu"
-      sha256 "bf067fea65058deca810705d5d4baa056fe22a4c87c5a1b75d8c3b429ebffe0a"
+      url "https://github.com/sorbet-ai/omnimon/releases/download/v0.1.3/omnimon-x86_64-unknown-linux-gnu"
+      sha256 "44eccf14136ff576615f98cc881c0b74fc2e599f22260cc5f0d79447c75c4649"
     end
   end
 
